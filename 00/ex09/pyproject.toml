@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ft_package"
+version = "0.0.1"
+description = "A sample test package"
+readme = "README.md"
+requires-python = ">=3.6"
+license = { text = "MIT" }
+authors = [
+  { name="mpellegr", email="mpellegr@42.fr" }
+]
+urls = { Homepage = "https://github.com/mpellegr/ft_package" }
